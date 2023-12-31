@@ -9,7 +9,7 @@ const Experience = () => {
         <span className="text-transparent bg-clip-text bg-gradient-to-r p-3 to-blue-600 from-sky-200">My Experience</span>
       </div>
       {/* Big Flexbox */}
-      <div className='flex items-center mt-4 sm:flex-col ssm:flex-col'>
+      <div className='flex items-center mt-4 lg:flex-row sm:flex-col ssm:flex-col'>
         <div className="flex  flex-col items-center m-3 mb-5 justify-center w-4/5 h-full bg-black text-white" style={{ boxShadow: '10px 8px 10px #54556661' }}>
           <div className='text-3xl font-bold'><h1 className='text-blue-600'>InfoSys SpringBoard</h1></div>
           <div className='text-2xl font-semibold'><h1>Web Development Training</h1></div>
