@@ -12,7 +12,7 @@ const Hero = () => {
         {/* 1 */}
         <div className='lg:w-1/2 ssm:w-fit'>
           <div className='mt-28 shadow-[rgba(0,_0,_0,_0.2)_0px_60px_40px_-7px] backdrop-filter backdrop-blur-md bg-opacity-50 bg-gray-700 bg-blur-1 rounded-md shadow-inner-md p-10 transform transition-transform duration-300 ease sm:w-full hover:scale-105 mb-4'>
-            <p className='text-4xl mb-5 text-slate-300'>My Name is Kashish Shukla</p>
+            <p className='text-4xl mb-5 text-slate-300'>Kashish Shukla</p>
             <div className='mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl m-3'>
               <span className="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-200 pb-4">Programmer<br /><span className='ml-[10.5rem] ssm:ml-[5.5rem]'>&</span><br />Web Developer</span>
             </div>
