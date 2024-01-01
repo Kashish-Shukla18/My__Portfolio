@@ -29,15 +29,15 @@ const Nav = () => {
                 <div><a href="#" className="text-white font-mono text-3xl tracking-wider flex items-center"></a></div>
                 <div className="space-x-4">
                     <div className='ssm:hidden lg:block space-x-2'>
-                    <Link to="/ProjectsSection"><button className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl" onClick={() => handleClick('AboutSection')}>About</button></Link>
+                    <Link to="/AboutSection"><button className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl" onClick={() => handleClick('AboutSection')}>About</button></Link>
 
-                    <Link to="/ProjectsSection"><button className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl" onClick={() => handleClick('SkillsSection')}>Skills</button></Link>
+                    <Link to="/SkillsSection"><button className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl" onClick={() => handleClick('SkillsSection')}>Skills</button></Link>
 
                         <Link to="/ProjectsSection"><button className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl" onClick={() => handleClick('ProjectsSection')}>Projects</button></Link>
 
-                        <Link to="/ProjectsSection"><button className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl" onClick={() => handleClick('ExperienceSection')}>Experience</button></Link>
+                        <Link to="/ExperienceSection"><button className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl" onClick={() => handleClick('ExperienceSection')}>Experience</button></Link>
 
-                        <button className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl" onClick={() => handleClick('contactUsSection')}>Contact Us</button>
+                        <Link to="/ContactUsSection"></><button className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl" onClick={() => handleClick('contactUsSection')}>Contact Us</button></Link>
                     </div>
 
                     <div className='lg:hidden ssm:block space-x-2'>
